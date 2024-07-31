@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextOccupation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Occupation"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:onClick="submitForm" />
+
+    <Button
+        android:id="@+id/buttonAddToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to List"
+        android:layout_gravity="center"
+        android:onClick="addToList" />
+
+    <Button
+        android:id="@+id/buttonShowListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show ListView"
+        android:layout_gravity="center"
+        android:onClick="showListView" />
+
+    <Button
+        android:id="@+id/buttonShowGridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show GridView"
+        android:layout_gravity="center"
+        android:onClick="showGridView" />
+
+    <Button
+        android:id="@+id/buttonShowRecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show RecyclerView"
+        android:layout_gravity="center"
+        android:onClick="showRecyclerView" />
+
+
+</LinearLayout>
